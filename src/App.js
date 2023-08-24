@@ -1,9 +1,14 @@
-import './App.css';
-import Tictac from './Tictac';
+
+import Tictactoe1 from './Tictactoe1';
+import Tictactoe2 from './Tictactoe2';
 
 const App = () =>{
+  
   return(
-    <Tictac/>
+    <>
+    <Tictactoe1/>
+    <Tictactoe2 />
+    </>
   );
 }
 export default App;
